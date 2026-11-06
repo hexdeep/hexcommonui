@@ -14,7 +14,12 @@ The applications use a local package link while HexUI is not published:
 "@hexdeep/ui": "link:../hexui"
 ```
 
-Install dependencies from each consumer after cloning the sibling repositories.
+Install HexUI's dependencies once, then install dependencies from each consumer
+after cloning the sibling repositories:
+
+```sh
+cd /path/to/hexui && pnpm install
+```
 Import the package stylesheet and register its source with Tailwind 4:
 
 ```css
