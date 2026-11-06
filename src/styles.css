@@ -7,6 +7,8 @@
   --hexui-accent-soft-dark: var(--color-indigo-950);
   --hexui-accent-text-dark: var(--color-indigo-400);
   --hexui-accent-border-dark: var(--color-indigo-800);
+  --hexui-accent-solid: var(--color-indigo-600);
+  --hexui-accent-solid-dark: var(--color-indigo-500);
   --hexui-text-secondary: var(--color-neutral-700);
   --hexui-text-secondary-dark: var(--color-neutral-300);
 }
