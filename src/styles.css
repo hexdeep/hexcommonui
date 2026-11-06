@@ -1,0 +1,12 @@
+/* Default semantic palette. Products can override these variables after this
+   stylesheet to keep their own accent and supporting-text colours. */
+:root {
+  --hexui-accent-soft: var(--color-indigo-50);
+  --hexui-accent-text: var(--color-indigo-700);
+  --hexui-accent-border: var(--color-indigo-200);
+  --hexui-accent-soft-dark: var(--color-indigo-950);
+  --hexui-accent-text-dark: var(--color-indigo-400);
+  --hexui-accent-border-dark: var(--color-indigo-800);
+  --hexui-text-secondary: var(--color-neutral-700);
+  --hexui-text-secondary-dark: var(--color-neutral-300);
+}
